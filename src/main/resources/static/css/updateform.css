@@ -1,0 +1,29 @@
+.container-box {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    border: 2px solid rgba(194, 194, 194, 0.82);
+    border-radius: 10px;
+    background-color: rgb(239, 239, 239);
+    padding: 20px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+span.error {
+    color: blue;
+}
